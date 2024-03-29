@@ -8,11 +8,11 @@ const Footer = () => {
             <div>
                 <p className="font-semibold text-gray text-xs">
                     More ways to shop: {' '}
-                    <span className="underline text-blue">
+                    <span className="underline text-blue cursor-pointer">
                         Find an Apple Store {' '}
                     </span>
                     or {' '}
-                    <span className="underline text-blue">
+                    <span className="underline text-blue cursor-pointer">
                         other retailer
                     </span> {' '}
                     near you.
@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className='bg-neutral-700 my-5 h-[1px]' />
 
-            <div className='flex md:flex-row flex-col md:items-center justify-between'>
+            <div className='flex md:flex-row flex-col md:items-center justify-between mb-3'>
                 <p className="font-semibold text-gray text-xs">
                     Copyright @ 2024 Apple Inc. All Rights Reserved.
                 </p>
